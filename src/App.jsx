@@ -3,36 +3,36 @@ function App() {
     <>
       {/* <!-- Hero Section --> */}
       <div className="relative h-[95vh] bg-red-600">
-        <video autoPlay loop muted className="w-full h-full object-cover">
+        <video autoPlay loop muted className="object-cover w-full h-full">
           <source
-            src="/src/assets/HOSANNA ESTATE  ABUJA.mp4"
+            src="/assets/HOSANNA ESTATE  ABUJA.mp4"
             type="video/mp4"
           />
         </video>
         <div className="absolute top-0 left-0 w-full h-full bg-black/50">
           <div className="h-full space-y-44">
-            <div className="bg-black/40 py-6">
-              <nav className="container mx-auto flex items-center justify-between">
+            <div className="py-6 bg-black/40">
+              <nav className="container flex items-center justify-between mx-auto">
                 <div>
-                  <img src="/src/assets/copen logo.png" alt="" />
+                  <img src="/assets/copen logo.png" alt="" />
                 </div>
                 <ul className="flex items-center gap-8 text-white capitalize text-[15px] font-medium">
-                  <li className="cursor-pointer hover:text-red-600 transition-all delay-75 ease-in-out">
+                  <li className="transition-all ease-in-out delay-75 cursor-pointer hover:text-red-600">
                     home
                   </li>
-                  <li className="cursor-pointer hover:text-red-600 transition-all delay-75 ease-in-out">
+                  <li className="transition-all ease-in-out delay-75 cursor-pointer hover:text-red-600">
                     about
                   </li>
-                  <li className="cursor-pointer hover:text-red-600 transition-all delay-75 ease-in-out">
+                  <li className="transition-all ease-in-out delay-75 cursor-pointer hover:text-red-600">
                     what we do
                   </li>
-                  <li className="cursor-pointer hover:text-red-600 transition-all delay-75 ease-in-out">
+                  <li className="transition-all ease-in-out delay-75 cursor-pointer hover:text-red-600">
                     projects
                   </li>
-                  <li className="cursor-pointer hover:text-red-600 transition-all delay-75 ease-in-out">
+                  <li className="transition-all ease-in-out delay-75 cursor-pointer hover:text-red-600">
                     contact
                   </li>
-                  <li className="cursor-pointer hover:text-red-600 transition-all delay-75 ease-in-out">
+                  <li className="transition-all ease-in-out delay-75 cursor-pointer hover:text-red-600">
                     blog
                   </li>
                 </ul>
@@ -42,7 +42,7 @@ function App() {
               <p className="text-[#ff3800] capitalize font-medium text-2xl">
                 # building lives & structures
               </p>
-              <h1 className="capitalize font-extrabold text-7xl">
+              <h1 className="font-extrabold capitalize text-7xl">
                 we build your dream
               </h1>
               <p className="max-w-4xl text-center">
@@ -71,7 +71,7 @@ function App() {
                     />
                   </svg>
                 </button>
-                <button className="bg-transparent py-4 hover:bg-red-800 hover:border-red-800 hover:no-underline underline underline-offset-4 transition-all delay-100 ease-in border font-extrabold text-sm capitalize px-10 rounded-full flex items-center gap-3">
+                <button className="flex items-center gap-3 px-10 py-4 text-sm font-extrabold underline capitalize transition-all ease-in delay-100 bg-transparent border rounded-full hover:bg-red-800 hover:border-red-800 hover:no-underline underline-offset-4">
                   contact us
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -95,11 +95,11 @@ function App() {
       </div>
 
       {/* <!-- Boxes Section --> */}
-      <div className="container mx-auto space-y-4 m-0">
+      <div className="container m-0 mx-auto space-y-4">
         <div className="grid grid-cols-3">
           <div className="py-20 2xl:py-[4rem] flex flex-col items-center gap-6 px-16 bg-white -mt-16 rounded-s-md 2xl:-mt-44 z-[9999]">
-            <img src="/src/assets/iconOne.png" alt="" />
-            <h3 className="font-extrabold capitalize text-lg">
+            <img src="/assets/iconOne.png" alt="" />
+            <h3 className="text-lg font-extrabold capitalize">
               real estate development
             </h3>
             <p className="text-sm text-[#565656 ] text-center leading-7">
@@ -110,8 +110,8 @@ function App() {
             </p>
           </div>
           <div className="py-28 flex flex-col items-center gap-6 px-16 bg-white -mt-24 rounded-md 2xl:-mt-56 z-[9999]">
-            <img src="/src/assets/iconThree.png" alt="" />
-            <h3 className="font-extrabold capitalize text-lg">construction</h3>
+            <img src="/assets/iconThree.png" alt="" />
+            <h3 className="text-lg font-extrabold capitalize">construction</h3>
             <p className="text-sm text-[#565656 ] text-center leading-7">
               With every project, we push the front edge of what is possible in
               construction. Our vision is to evolve the construction industry
@@ -119,8 +119,8 @@ function App() {
             </p>
           </div>
           <div className="py-20 2xl:py-[4rem] flex flex-col items-center gap-6 px-16 bg-white -mt-16 rounded-e-md 2xl:-mt-44 z-[9999]">
-            <img src="/src/assets/iconTwo.png" alt="" />
-            <h3 className="font-extrabold capitalize text-lg">consultancy</h3>
+            <img src="/assets/iconTwo.png" alt="" />
+            <h3 className="text-lg font-extrabold capitalize">consultancy</h3>
             <p className="text-sm text-[#565656 ] text-center leading-7">
               We provide valuable advice, direction, and guidance to our
               clients. We know the building process is a scary thing, our top
@@ -141,7 +141,7 @@ function App() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <button className="bg-red-600 py-4 hover:bg-red-800 hover:border-red-800 hover:no-underline underline underline-offset-4 transition-all delay-75 ease-in border font-extrabold capitalize px-10 rounded-full border-transparent flex items-center gap-3 text-white">
+              <button className="flex items-center gap-3 px-10 py-4 font-extrabold text-white underline capitalize transition-all ease-in delay-75 bg-red-600 border border-transparent rounded-full hover:bg-red-800 hover:border-red-800 hover:no-underline underline-offset-4">
                 about us
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +164,7 @@ function App() {
             <p className="text-[#ff3800] text-lg font-semibold capitalize">
               our proud
             </p>
-            <h2 className="font-extrabold capitalize text-3xl mb-10">
+            <h2 className="mb-10 text-3xl font-extrabold capitalize">
               27 years of experience
             </h2>
             <p className="font-medium leading-7 max-w-lg text-[15px] mb-24">
@@ -203,11 +203,11 @@ function App() {
       </div>
 
       {/* <!-- Banner Section --> */}
-      <div className="banner my-24">
+      <div className="my-24 banner">
         <div className="w-full h-full bg-gradient-to-r from-transparent via-transparent to-orange-400/70">
-          <div className="py-24 container mx-auto grid grid-cols-2 gap-10">
+          <div className="container grid grid-cols-2 gap-10 py-24 mx-auto">
             <div className="space-y-8">
-              <h2 className="text-4xl font-bold text-white leading-10">
+              <h2 className="text-4xl font-bold leading-10 text-white">
                 From Concept to Final Solution We Offer Superior Services
               </h2>
               <p className="font-medium text-orange-400">
@@ -216,7 +216,7 @@ function App() {
               </p>
             </div>
             <div className="flex items-center justify-center">
-              <button className="bg-transparent py-4 hover:bg-red-800 hover:border-red-800 hover:no-underline underline underline-offset-4 transition-all delay-100 ease-in border font-extrabold text-sm capitalize px-10 rounded-full flex items-center gap-3 text-white">
+              <button className="flex items-center gap-3 px-10 py-4 text-sm font-extrabold text-white underline capitalize transition-all ease-in delay-100 bg-transparent border rounded-full hover:bg-red-800 hover:border-red-800 hover:no-underline underline-offset-4">
                 GET IN TOUCH
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -240,8 +240,8 @@ function App() {
 
       {/* <!-- What We Do Section --> */}
       <div className="weDo">
-        <div className="w-full h-full bg-white py-10">
-          <div className="flex container mx-auto flex-col gap-16">
+        <div className="w-full h-full py-10 bg-white">
+          <div className="container flex flex-col gap-16 mx-auto">
             <h2 className="text-3xl text-center font-extrabold capitalize underline underline-offset-8 decoration-[#ff3800]">
               what we do
             </h2>
@@ -253,78 +253,78 @@ function App() {
             <div className="grid grid-cols-3 gap-6">
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     construction
                   </h3>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     consultancy
                   </h3>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     real estate development
                   </h3>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     general contract
                   </h3>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     training
                   </h3>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     geo-informatics & survey
                   </h3>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     agriculture
                   </h3>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     banking
                   </h3>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src="/src/assets/iconOne.png" alt="" />
-                <div className="bg-white/70 rounded-md shadow-md -mt-4 pt-6 pb-14 w-full">
-                  <h3 className="font-extrabold capitalize text-lg text-center">
+                <div className="w-full pt-6 -mt-4 rounded-md shadow-md bg-white/70 pb-14">
+                  <h3 className="text-lg font-extrabold text-center capitalize">
                     facility management
                   </h3>
                 </div>
               </div>
             </div>
-            <button className="bg-red-600 py-4 hover:bg-red-800 hover:border-red-800 hover:no-underline underline underline-offset-4 transition-all delay-75 ease-in border font-extrabold capitalize px-10 rounded-full border-transparent flex items-center gap-3 text-white mx-auto">
+            <button className="flex items-center gap-3 px-10 py-4 mx-auto font-extrabold text-white underline capitalize transition-all ease-in delay-75 bg-red-600 border border-transparent rounded-full hover:bg-red-800 hover:border-red-800 hover:no-underline underline-offset-4">
               our services
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -350,8 +350,8 @@ function App() {
         <div className="container mx-auto">
           <div className="grid grid-cols-3 gap-6">
             <img
-              className="h-full object-cover object-left w-full"
-              src="/src/assets/const_1.jpg"
+              className="object-cover object-left w-full h-full"
+              src="/assets/const_1.jpg"
               alt=""
             />
             <div className="flex flex-col justify-between text-center">
@@ -366,7 +366,7 @@ function App() {
                 our success. Some of the latest projects are ongoing across the
                 country
               </p>
-              <button className="bg-red-600 py-4 hover:bg-red-800 hover:border-red-800 hover:no-underline underline underline-offset-4 transition-all delay-75 ease-in border font-extrabold capitalize px-10 rounded-full border-transparent flex items-center gap-3 text-white mx-auto">
+              <button className="flex items-center gap-3 px-10 py-4 mx-auto font-extrabold text-white underline capitalize transition-all ease-in delay-75 bg-red-600 border border-transparent rounded-full hover:bg-red-800 hover:border-red-800 hover:no-underline underline-offset-4">
                 our projects
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -385,8 +385,8 @@ function App() {
               </button>
             </div>
             <img
-              className="h-full object-cover object-left w-full"
-              src="/src/assets/const_2.jpg"
+              className="object-cover object-left w-full h-full"
+              src="/assets/const_2.jpg"
               alt=""
             />
           </div>
@@ -396,12 +396,12 @@ function App() {
       {/* <!-- calculator view --> */}
       <div className="jedidiah">
         <div className="py-24 bg-[#ff3800]/90">
-          <div className="grid grid-cols-2 gap-4 container mx-auto">
-            <div className="flex items-end justify-center flex-col">
-              <p className="capitalize text-orange-400 font-medium text-lg">
+          <div className="container grid grid-cols-2 gap-4 mx-auto">
+            <div className="flex flex-col items-end justify-center">
+              <p className="text-lg font-medium text-orange-400 capitalize">
                 Easily Calculate our Mortgage
               </p>
-              <h2 className="text-5xl text-white font-extrabold">
+              <h2 className="text-5xl font-extrabold text-white">
                 Mortgage Calculator
               </h2>
             </div>
@@ -411,7 +411,7 @@ function App() {
       </div>
 
       {/* <!-- Team Section --> */}
-      <div className="py-24 container mx-auto grid grid-cols-2 gap-4">
+      <div className="container grid grid-cols-2 gap-4 py-24 mx-auto">
         <div className="flex flex-col justify-center gap-14">
           <h2 className="text-3xl text-center font-extrabold capitalize underline underline-offset-8 decoration-[#ff3800]">
             meet the team
@@ -421,7 +421,7 @@ function App() {
             Engineering, Project Management, e.t.c. Take a look at our
             experienced experts and professionals ready to give you their best
           </p>
-          <button className="bg-red-600 py-4 hover:bg-red-800 hover:border-red-800 hover:no-underline underline underline-offset-4 transition-all delay-75 ease-in border font-extrabold capitalize px-10 rounded-full border-transparent flex items-center gap-3 text-white mx-auto">
+          <button className="flex items-center gap-3 px-10 py-4 mx-auto font-extrabold text-white underline capitalize transition-all ease-in delay-75 bg-red-600 border border-transparent rounded-full hover:bg-red-800 hover:border-red-800 hover:no-underline underline-offset-4">
             our team
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -440,13 +440,13 @@ function App() {
           </button>
         </div>
         <div className="grid grid-cols-2 gap-6">
-          <div className="shadow-md hover:shadow-md transition-all delay-75 ease-in">
+          <div className="transition-all ease-in delay-75 shadow-md hover:shadow-md">
             <img
               className="w-full"
-              src="/src/assets/Ugochukwu-Chime-fnis-fniob-JP-Group-Managing-Director-e1657156728255.jpg"
+              src="/assets/Ugochukwu-Chime-fnis-fniob-JP-Group-Managing-Director-e1657156728255.jpg"
               alt=""
             />
-            <div className="bg-white p-8 text-center space-y-4">
+            <div className="p-8 space-y-4 text-center bg-white">
               <h4 className="font-bold hover:text-red-600">
                 Ugochukwu Chime, fnis, fniob, JP
               </h4>
@@ -455,9 +455,9 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="shadow-md hover:shadow-md transition-all delay-75 ease-in">
-            <img className="w-full" src="/src/assets/madam.jpg" alt="" />
-            <div className="bg-white p-8 text-center space-y-4">
+          <div className="transition-all ease-in delay-75 shadow-md hover:shadow-md">
+            <img className="w-full" src="/assets/madam.jpg" alt="" />
+            <div className="p-8 space-y-4 text-center bg-white">
               <h4 className="font-bold hover:text-red-600">Chinelo Chime</h4>
               <p className="text-[#747373] text-sm font-semibold">
                 Deputy Managing Director
@@ -469,27 +469,27 @@ function App() {
 
       {/* <!-- Partenrs Section --> */}
       <div className="bg-gray-100">
-        <div className="py-16 container mx-auto flex items-center gap-16 divide-x-2">
-          <h2 className="text-3xl text-center font-extrabold capitalize">
+        <div className="container flex items-center gap-16 py-16 mx-auto divide-x-2">
+          <h2 className="text-3xl font-extrabold text-center capitalize">
             our partners
           </h2>
           <div className="flex items-center justify-between flex-1 px-4">
-            <img src="/src/assets/site-logo.png" alt="" />
-            <img src="/src/assets/fed-logo.png" alt="" />
-            <img src="/src/assets/Mor-logo.png" alt="" />
-            <img src="/src/assets/c-stemp-logo.png" alt="" />
+            <img src="/assets/site-logo.png" alt="" />
+            <img src="/assets/fed-logo.png" alt="" />
+            <img src="/assets/Mor-logo.png" alt="" />
+            <img src="/assets/c-stemp-logo.png" alt="" />
           </div>
         </div>
       </div>
 
       {/* <!-- footer section --> */}
       <footer className="bg-black text-[#9b9b9b]">
-        <div className="py-16 container mx-auto space-y-20">
+        <div className="container py-16 mx-auto space-y-20">
           <div className="grid grid-cols-5 gap-16">
-            <div className="space-y-8 col-span-2">
+            <div className="col-span-2 space-y-8">
               <h5 className="text-xl text-[#ff3800] capitalize">about us</h5>
               <img src="/src/assets/FOOTER-LOGO.png" alt="" />
-              <p className="text-sm max-w-xs leading-7">
+              <p className="max-w-xs text-sm leading-7">
                 We are a consortium of God fearing professionals with a keen
                 drive to deliver on the full range of physical development
                 consultancy, construction, Real Estate development,
@@ -499,7 +499,7 @@ function App() {
             </div>
             <div className="space-y-8">
               <h5 className="text-xl text-[#ff3800] capitalize">quick links</h5>
-              <ul className="capitalize space-y-2">
+              <ul className="space-y-2 capitalize">
                 <li className="underline cursor-pointer">home</li>
                 <li className="underline cursor-pointer">about</li>
                 <li className="underline cursor-pointer">what we do</li>
@@ -512,7 +512,7 @@ function App() {
               <h5 className="text-xl text-[#ff3800] capitalize">
                 our services
               </h5>
-              <ul className="capitalize space-y-2">
+              <ul className="space-y-2 capitalize">
                 <li className="underline cursor-pointer">consultancy</li>
                 <li className="underline cursor-pointer">construction</li>
                 <li className="underline cursor-pointer">
@@ -532,7 +532,7 @@ function App() {
               <h5 className="text-xl text-[#ff3800] capitalize">
                 ongoing projects
               </h5>
-              <ul className="capitalize space-y-2">
+              <ul className="space-y-2 capitalize">
                 <li className="underline cursor-pointer">
                   adonai garden - enugu
                 </li>

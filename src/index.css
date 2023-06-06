@@ -19,21 +19,21 @@ button {
 }
 
 .banner {
-  background-image: url('/src/assets/banner.png');
+  background-image: url('/public/assets/banner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .weDo {
-  background-image: url('/src/assets/CONSTRUCTION-ARTWORK.png');
+  background-image: url('/public/assets/CONSTRUCTION-ARTWORK.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .jedidiah {
-  background-image: url('/src/assets/JEDIDIAH-GARDENS-AERIAL-VIEW-COPEN-GROUP-2-scaled.jpg');
+  background-image: url('/public/assets/JEDIDIAH-GARDENS-AERIAL-VIEW-COPEN-GROUP-2-scaled.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
